@@ -6,10 +6,7 @@ function getComputerChoice(){
 }
 
 const computerSelection = getComputerChoice();
-    
-   
 
-// начало раунда
 function playRound(playerSelection,computerSelection){
     const player = playerSelection.toLowerCase()
     const computer = computerSelection.toLowerCase()
